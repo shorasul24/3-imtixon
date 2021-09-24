@@ -1,0 +1,30 @@
+body{
+   text-align: center;
+}
+
+ul{
+   list-style-type: none;
+   padding: 0;
+}
+
+.container-fluid {
+   max-width: 1400px;
+   margin: 0 auto;
+}
+
+.list {
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   column-gap: 10px;
+   row-gap: 20px;
+   
+}
+
+.list__item {
+   width: 18%;
+   background: rgb(78, 175, 240);
+   color: white;
+   border-radius: 4px;
+}
